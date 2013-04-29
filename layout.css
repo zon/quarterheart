@@ -35,6 +35,11 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-bottom: 0;
 }
 
+#about {
+	background-color: #000;
+	color: #eee;
+}
+
 #controls table {
 	border-collapse: collapse;
 	margin: 0;
