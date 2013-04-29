@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #bbb;
+	color: #111;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 20px 0;
+}
+
+#site-body {
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 600px;
+}
+
+#site-title {
+	height: 67px;
+	background: url("images/quarterheart.svg") no-repeat;
+	padding-left: 72px;
+	line-height: 66px;
+	font-size: 42px;
+}
+
+.section {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #eee;
+}
+.section *:first-child {
+	margin-top: 0;
+}
+.section *:last-child {
+	margin-bottom: 0;
+}
+
+#controls table {
+	border-collapse: collapse;
+	margin: 0;
+}
+#controls table tbody.camera {
+	background-color: #aaf;
+}
+#controls table tbody.movement {
+	background-color: #ada;
+}
+#controls table tbody.combat {
+	background-color: #faa;
+}
+#controls table tbody.misc {
+	background-color: #ffa;
+}
+#controls table td {
+	padding: 0.5em 1em;
+}
+#controls table td:first-child {
+	font-weight: bold;
+	text-align: right;
+}
+#controls table tr {
+	border-top: 1px dotted #111;
+}
+#controls table tbody:first-child tr:first-child {
+	border: none;
+}
+#controls .command {
+	white-space: nowrap;
+}

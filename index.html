@@ -1,14 +1,93 @@
----
-layout: default
-title: QuarterHeart
----
+<!DOCTYPE>
+<html>
+	<head>
+		<title>QuarterHeart</title>
+		<link rel="stylesheet" type="text/css" href="layout.css">
+		<link rel="icon" type="image/png" href="images/quarterheart-favicon.png">
+	</head>
+	<body>
+		<div id="site-body">
+			<h1 id="site-title">QuarterHeart</h1>
+		
+			<div class="section">
+				<h2>About</h2>
+				<p>QuarterHeart is developing an untitled multiplayer space combat game. Right now the project is just getting started, but anyone is welcome to try the alpha.</p>
+			</div>
 
-<h1>QuarterHeart</h1>
-<ul>
-{% for post in site.posts %}
-	<li>
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		<p>{{ post.date | date_to_string }}</p>
-	</li>
-{% endfor %}
-</ul>
+			<div id="controls" class="section">
+				<h2>Controls</h2>
+				<table>
+					<tbody class="camera">
+						<tr>
+							<td>Move Mouse</td>
+							<td>Pitch and yaw the camera</td>
+						</tr>
+						<tr>
+							<td>Q, E</td>
+							<td>Roll the camera</td>
+						</tr>
+					</tbody>
+					<tbody class="movement">
+						<tr>
+							<td>W, S</td>
+							<td>Move ship forward and backward relative to the camera</td>
+						</tr>
+						<tr>
+							<td>A, D</td>
+							<td>Move ship left and right relative to the camera</td>
+						</tr>
+						<tr>
+							<td>Space, <span class="command">Left Alt</span></td>
+							<td>Move ship up and down relative to the camera</td>
+						</tr>
+					</tbody>
+					<tbody class="combat">
+						<tr>
+							<td>R</td>
+							<td>Target enemy under sight</td>
+						</tr>
+						<tr>
+							<td><span class="command">Left Click</span></td>
+							<td>Fire turrets</td>
+						</tr>
+					</tbody>
+					<tbody class="misc">
+						<tr>
+							<td>X</td>
+							<td>Move ship in reverse (only useful when stuck)</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="command">Alt + F4</span>,
+								<span class="command">&#8984; + Q</span>
+							</td>
+							<td>Quit</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+			<div id="download" class="section">
+				<h2>Download</h2>
+				<ul>
+					<li><a href="/download/a1/Alpha_Linux.zip">Alpha Linux</a></li>
+					<li><a href="/download/a1/Alpha_Mac.zip">Alpha Mac</a></li>
+					<li><a href="/download/a1/Alpha_Windows.zip">Alpha Windows</a></li>
+				</ul>
+				<h6>Version Alpha 1</h6>
+			</div>
+		
+			<div id="contact" class="section">
+				<h2>Contact</h2>
+				<p>Feel free to send your comments or bug reports. There is also a mailing list for announcing testing events. Let me know if you'd like to join.</p>
+				<h3><a href="mailto:zon@quarterheart.com">zon@quarterheart.com</a></h3>
+			</div>
+		
+			<div class="section">
+				<h2>Consulting</h2>
+				<p>QuarterHeart is paid for by web application and Unity game development consultation. Contact me if you would like help with your project.</p>
+			</div>
+		
+		</body>
+	</div>
+</html>

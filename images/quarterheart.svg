@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
+   width="66"
+   height="67"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="quarterheart.svg"
    inkscape:export-filename="quarterheart.png"
-   inkscape:export-xdpi="45"
-   inkscape:export-ydpi="45">
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,17 +27,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="32"
-     inkscape:cy="32"
+     inkscape:zoom="13.119403"
+     inkscape:cx="33"
+     inkscape:cy="33.5"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     showgrid="false"
+     inkscape:window-width="1615"
+     inkscape:window-height="1026"
      inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     showguides="false">
     <inkscape:grid
        type="xygrid"
        id="grid3753"
@@ -62,16 +63,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-988.36218)">
+     transform="translate(0,-985.36218)">
     <path
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 32 18 C 32 10.268014 25.731986 4 18 4 C 10.268014 4 4 10.268014 4 18 C 4 33.463973 32 60 32 60 C 32 60 48.487263 44.295775 56.125 30 L 32 30 L 32 18 z "
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.00099993;stroke-opacity:1;stroke-dasharray:none"
+       d="m 19,990.36219 c -7.731986,0 -14,6.26801 -14,14.00001 0,15.464 28,42 28,42 0,0 27.740369,-26.4099 28,-42 0,-7.732 -6.268014,-14.00001 -14,-14.00001 -7.731986,0 -14,6.26801 -14,14.00001 0,-7.732 -6.268014,-14.00001 -14,-14.00001 z"
        id="path3797"
-       transform="translate(0,988.36218)" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccscs" />
     <path
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 32 18 L 32 30 L 56.125 30 C 58.407544 25.727695 60 21.558085 60 18 C 60 10.268014 53.731986 4 46 4 C 38.268014 4 32 10.268014 32 18 z "
-       id="path3755"
-       transform="translate(0,988.36218)" />
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 33,1004.3622 0,12 24.125,0 c 2.282544,-4.2723 3.875,-8.4419 3.875,-12 0,-7.732 -6.268014,-14.00001 -14,-14.00001 -7.731986,0 -14,6.26801 -14,14.00001 z"
+       id="path3755" />
   </g>
 </svg>
