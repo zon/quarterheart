@@ -40,9 +40,17 @@ h1, h2, h3, h4, h5, h6, p {
 	color: #eee;
 }
 
+#controls {
+	padding: 0;
+	padding-top: 20px;
+}
+#controls h2 {
+	margin: 0 20px 20px;
+}
 #controls table {
 	border-collapse: collapse;
 	margin: 0;
+	width: 100%;
 }
 #controls table tbody.camera {
 	background-color: #aaf;
@@ -59,9 +67,16 @@ h1, h2, h3, h4, h5, h6, p {
 #controls table td {
 	padding: 0.5em 1em;
 }
+#controls table tbody:last-child tr:last-child td {
+	padding-bottom: 20px;
+}
 #controls table td:first-child {
+	padding-left: 20px;
 	font-weight: bold;
 	text-align: right;
+}
+#controls table td:last-child {
+	padding-right: 20px;
 }
 #controls table tr {
 	border-top: 1px dotted #111;
@@ -71,4 +86,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 #controls .command {
 	white-space: nowrap;
+}
+
+#testing table {
+	width: 100%;
+	border-spacing: 5px;
+}
+#testing table td {
+	width: 20%;
+	height: 100px;
+	padding: 10px;
+	background-color: #ddd;
+	font-weight: bold;
+	text-align: center;
+	color: #bbb;
+}
+#testing table td.day {
+	background-color: #c00;
+	color: #fee;
+}
+#testing table span.time {
+	font-weight: normal;
 }
