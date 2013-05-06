@@ -6,11 +6,13 @@ from fabric.api import *
 
 JEKYLL_SOURCE = 'jekyll'
 JEKYLL_DESTINATION = 'jekyll/_site/'
+TTL = 300
 
 # install dependancies
 def install():
-	local('sudo apt-get install -y rubygems python-rackspace-cloudfiles')
+	local('sudo apt-get install -y rubygems python-pip')
 	local('sudo gem install jekyll')
+	local('sudo pip install python-cloudfiles')
 
 # send to rackspace cloud files
 def publish():
@@ -35,3 +37,4 @@ def publish():
 			)
 			print ' * %s...' % obj.name
 			obj.load_from_filename(filename)
+	container.make_public(ttl = TTL)
